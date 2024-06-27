@@ -1,0 +1,57 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "text": "你好，欢迎来到我们的城市。1111222",
+            "nextId": "2",
+            "choices": [
+                {
+                    "text": "谢谢！",
+                    "targetNodeId": "2"
+                },
+                {
+                    "text": "这里有什么好玩的？",
+                    "targetNodeId": "3"
+                }
+            ],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 82.0,
+                "y": 165.5,
+                "width": 610.0,
+                "height": 159.0
+            }
+        },
+        {
+            "id": "2",
+            "text": "不客气，请享受你的旅程。",
+            "nextId": "",
+            "choices": [],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 805.0,
+                "y": 204.0,
+                "width": 213.0,
+                "height": 117.0
+            }
+        },
+        {
+            "id": "3",
+            "text": "这里有很多有趣的地方，比如公园和博物馆。",
+            "nextId": "",
+            "choices": [
+                {
+                    "text": "听起来不错！",
+                    "targetNodeId": "2"
+                }
+            ],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 286.0,
+                "y": 391.5,
+                "width": 499.0,
+                "height": 138.0
+            }
+        }
+    ]
+}

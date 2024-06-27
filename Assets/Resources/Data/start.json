@@ -1,0 +1,79 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "text": "从小父母双亡，从小不知道怎么长大，现在有两个职业供你选择",
+            "nextId": "2",
+            "choices": [
+                {
+                    "text": "乞丐",
+                    "targetNodeId": "2"
+                },
+                {
+                    "text": "江湖术士",
+                    "targetNodeId": "3"
+                }
+            ],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 82.0,
+                "y": 165.5,
+                "width": 610.0,
+                "height": 159.0
+            }
+        },
+        {
+            "id": "2",
+            "text": "你选择了乞丐，接下来要自己生活了",
+            "nextId": "4",
+            "choices": [],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 805.0,
+                "y": 204.0,
+                "width": 213.0,
+                "height": 117.0
+            }
+        },
+        {
+            "id": "3",
+            "text": "你选择了江湖术士，接下来要自己生活了",
+            "nextId": "",
+            "choices": [
+               
+            ],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 286.0,
+                "y": 391.5,
+                "width": 499.0,
+                "height": 138.0
+            }
+        },
+        {
+            "id": "4",
+            "text": "混迹江湖",
+            "nextId": "5",
+            "choices": [],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 805.0,
+                "y": 204.0,
+                "width": 213.0,
+                "height": 117.0
+            }
+        },{
+            "id": "5",
+            "text": "继续混迹江湖",
+            "nextId": "",
+            "choices": [],
+            "rect": {
+                "serializedVersion": "2",
+                "x": 805.0,
+                "y": 204.0,
+                "width": 213.0,
+                "height": 117.0
+            }
+        }
+    ]
+}
